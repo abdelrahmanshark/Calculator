@@ -1,3 +1,4 @@
+import 'package:calculator/Logic/HomeScreen.dart';
 import 'package:flutter/material.dart';
 
 void main(){
@@ -10,6 +11,8 @@ class calc extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return  MaterialApp(
+       home: homeScreen(),
+    );
   }
 }
